@@ -3,6 +3,7 @@
 
 // Include the file with your database connection details
 require_once "../configs/constants.php";
+require_once "../configs/DbConn.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
